@@ -1,0 +1,51 @@
+.header{
+    height: 200px;
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:x-large;
+    font-weight: 100;
+    text-align: center;
+    background-image: url('bhai.jpg');
+    background-position: 30%;
+    /* background-repeat: no-repeat */
+}
+.main{
+    text-align: justify;
+    height: 100px;
+    margin: 20px;
+}
+.p1{
+    text-align: center;
+    margin: 20px;
+    padding: 20px 40px;
+    background-color:greenyellow;
+    box-shadow: 30px 20px 80px purple;
+}
+.p2{
+    text-align: center;
+    box-shadow: 20px 30px 90px red;
+    margin: 10px;
+    padding: 30px;
+    background-color:cornsilk
+}
+.p3{
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    background-color: burlywood;
+    box-shadow: 20px 40px 90px blue;
+}
+.jj{
+    font-size:larger;
+    color: brown;
+}
+.kk{
+    font-size: large;
+    color: blue;
+}
+.ll{
+    font-size:x-large;
+
+    color:deeppink
+}
