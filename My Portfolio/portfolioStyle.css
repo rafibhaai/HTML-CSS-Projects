@@ -80,9 +80,6 @@ nav a{
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-description{
-
-}
 /* Main Section Styles */
 main{
     max-width: 1140px;
@@ -177,4 +174,41 @@ textarea {
     background:#FFF;
     border: 0px;
     width: 100%;
+}
+
+/* Responsive Style */
+/* for mobile Devices */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .header{
+        background-image: none;
+    }
+    .skill-container, .resume-container, footer, .about-info-container, .banner, nav, nav>ul {
+        flex-direction: column;
+    }
+    footer, .about{
+        width: 100%;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .primary-button{
+        margin-bottom: 15px;
+    }
+    nav>ul{
+        gap: 10px;
+    }
+    .what-i-do-description, .banner{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"],
+    textarea{
+        width: 70%;
+    }
 }
