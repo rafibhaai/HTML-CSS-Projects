@@ -1,0 +1,13 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: peachpuff ;
+    border: 2px solid tomato;
+    transition: transform 5s;
+}
+.box:hover{
+    width: 300px;
+    background-color: slateblue;
+    transform: rotate(360deg) scale(.75);
+    
+}
